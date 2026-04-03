@@ -1,6 +1,7 @@
 This Document provides the info about the things there in repo 
 Repo also includes the word documents names as CC & WS Practical 2,3,5,6,7,8,9 and p10.docx
 also has python code for copying text named as import
+For Viva info there is one file named as viva 
 
                     
 =======================================================================
