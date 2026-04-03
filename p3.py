@@ -82,3 +82,146 @@ Practical 3
 62.	Select the Virtual Machine and click on start from the right side panel 
 63.	Complete the Installation Process 
 64.	FINISH
+
+
+
+
+
+
+
+
+
+
+For Viva-
+# Practical 3 Viva Questions  
+## Implementing IaaS using Windows Hyper-V (Windows Server 2012 R2)  
+
+---
+
+## 1. IaaS and Cloud Concepts  
+
+**Q1. What is Infrastructure as a Service (IaaS)?**  
+IaaS provides virtualized computing resources such as servers, storage, and networking over the internet.  
+
+**Q2. What are the main components of IaaS?**  
+Virtual machines, storage, networking, and hypervisors.  
+
+**Q3. Give examples of IaaS providers.**  
+AWS EC2, Microsoft Azure Virtual Machines, Google Compute Engine.  
+
+---
+
+## 2. Hyper-V Concepts  
+
+**Q1. What is Hyper-V?**  
+Hyper-V is a Type 1 hypervisor that enables virtualization on Windows systems.  
+
+**Q2. What type of hypervisor is Hyper-V?**  
+Type 1 (bare-metal) hypervisor.  
+
+**Q3. What is the role of Hyper-V in this practical?**  
+It is used to create and manage virtual machines on Windows Server.  
+
+---
+
+## 3. Virtualization Concepts  
+
+**Q1. What is virtualization?**  
+Virtualization is the creation of virtual versions of physical resources like servers, storage, and networks.  
+
+**Q2. What are the advantages of virtualization?**  
+Efficient resource utilization, cost reduction, scalability, and isolation.  
+
+**Q3. What are the types of virtualization?**  
+Server virtualization, storage virtualization, and network virtualization.  
+
+---
+
+## 4. Windows Server Concepts  
+
+**Q1. What is Windows Server 2012 R2?**  
+A server operating system used to manage network resources and services.  
+
+**Q2. What is the purpose of Server Manager?**  
+To manage server roles, features, and configurations.  
+
+**Q3. What are server roles and features?**  
+Roles provide core functions (like Hyper-V), while features add additional capabilities (.NET Framework, etc.).  
+
+---
+
+## 5. Virtual Machine Concepts  
+
+**Q1. What is a virtual machine?**  
+A software-based system that behaves like a physical computer.  
+
+**Q2. What is Generation 1 and Generation 2 VM in Hyper-V?**  
+Generation 1 uses BIOS-based boot  
+Generation 2 uses UEFI-based boot  
+
+**Q3. What is virtual hard disk (VHD)?**  
+A file that stores the data of a virtual machine.  
+
+---
+
+## 6. Resource Management  
+
+**Q1. What resources are allocated in Hyper-V?**  
+CPU, memory, storage, and network.  
+
+**Q2. What is dynamic memory in Hyper-V?**  
+A feature that automatically adjusts RAM allocation based on VM needs.  
+
+**Q3. What is virtual switch in Hyper-V?**  
+A software-based network switch used to connect virtual machines.  
+
+---
+
+## 7. Networking Concepts  
+
+**Q1. What is virtual networking in Hyper-V?**  
+It allows communication between VMs and external networks.  
+
+**Q2. Types of virtual switches in Hyper-V**  
+External, Internal, and Private  
+
+**Q3. Why is networking important in IaaS?**  
+It enables communication between virtual machines and external systems.  
+
+---
+
+## 8. Comparison-Based Questions  
+
+**Q1. Difference between Hyper-V and VMware ESXi**  
+- Hyper-V → Developed by Microsoft  
+- ESXi → Developed by VMware  
+
+**Q2. Difference between Hyper-V and Xen Server**  
+- Hyper-V → Microsoft-based  
+- Xen Server → Citrix-based  
+
+**Q3. Difference between physical and virtual machine**  
+- Physical → Dedicated hardware  
+- Virtual → Shared resources via hypervisor  
+
+---
+
+## 9. Advantages and Limitations  
+
+**Q1. Advantages of Hyper-V**  
+Cost-effective, integrated with Windows, scalable  
+
+**Q2. Limitations of Hyper-V**  
+Requires Windows environment, performance overhead in nested setup  
+
+**Q3. Advantages of IaaS**  
+Scalable, flexible, reduces hardware cost  
+
+---
+
+## 10. Final Conceptual Question  
+
+**Q. Explain how Hyper-V supports IaaS.**  
+Hyper-V virtualizes hardware resources and allows multiple virtual machines to run independently on a server. This enables users to access computing resources on demand, which is the core concept of IaaS.  
+
+---
