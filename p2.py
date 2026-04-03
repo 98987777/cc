@@ -102,3 +102,133 @@ Now in Citrix Xen Center
 93.	Tick the Use Different User name and put the User name of that Windows Virtual Machine and Password of that same
 94.	then Finish
 95.	DONE
+
+
+
+
+
+For Viva-
+# Practical 2 Viva Questions  
+## Implementing IaaS using Citrix Xen Server  
+
+---
+
+## 1. IaaS and Cloud Concepts  
+
+**Q1. What is Infrastructure as a Service (IaaS)?**  
+IaaS provides virtualized computing resources such as servers, storage, and networking over the internet.  
+
+**Q2. What are the key features of IaaS?**  
+On-demand resource allocation, scalability, pay-as-you-use model, and virtualization.  
+
+**Q3. Give examples of IaaS platforms.**  
+AWS EC2, Microsoft Azure Virtual Machines, Google Compute Engine.  
+
+---
+
+## 2. Xen Server Concepts  
+
+**Q1. What is Citrix Xen Server?**  
+Citrix Xen Server is a Type 1 (bare-metal) hypervisor used to create and manage virtual machines.  
+
+**Q2. What type of hypervisor is Xen Server?**  
+Type 1 hypervisor.  
+
+**Q3. What is the Xen Hypervisor?**  
+A virtualization layer that allows multiple operating systems to run on a single physical machine.  
+
+---
+
+## 3. Virtualization Concepts  
+
+**Q1. What is virtualization?**  
+Virtualization is the process of creating virtual versions of hardware resources like servers, storage, and networks.  
+
+**Q2. What are the advantages of virtualization?**  
+Efficient resource usage, cost reduction, scalability, and isolation.  
+
+**Q3. What are the types of virtualization?**  
+Server virtualization, storage virtualization, network virtualization.  
+
+---
+
+## 4. Resource Management  
+
+**Q1. What resources are provided in IaaS?**  
+CPU, memory, storage, and networking.  
+
+**Q2. How does a hypervisor manage resources?**  
+It allocates and controls hardware resources among multiple virtual machines.  
+
+**Q3. What is resource allocation in virtualization?**  
+Assigning CPU, RAM, and storage to virtual machines.  
+
+---
+
+## 5. Storage Concepts  
+
+**Q1. What is a Storage Repository (SR)?**  
+A storage location where virtual machine disks and ISO files are stored.  
+
+**Q2. What is an ISO file?**  
+A disk image file used to install an operating system.  
+
+**Q3. What is shared storage in virtualization?**  
+Storage accessible by multiple virtual machines or servers over a network.  
+
+---
+
+## 6. Networking Concepts  
+
+**Q1. What is virtual networking?**  
+A network created within a virtual environment to connect VMs.  
+
+**Q2. What is NAT in virtualization?**  
+A method that allows VMs to access external networks using the host system’s IP address.  
+
+**Q3. Why is networking important in IaaS?**  
+It enables communication between virtual machines and external systems.  
+
+---
+
+## 7. Management Tools  
+
+**Q1. What is Xen Center?**  
+A management tool used to monitor and control Xen Server and its virtual machines.  
+
+**Q2. Why are management tools required in IaaS?**  
+To manage, monitor, and control virtual resources efficiently.  
+
+---
+
+## 8. Comparison-Based Questions  
+
+**Q1. Difference between Xen Server and VMware ESXi**  
+- Xen Server → Open-source (Citrix)  
+- ESXi → Proprietary (VMware)  
+
+**Q2. Difference between Type 1 and Type 2 hypervisor**  
+- Type 1 → Runs directly on hardware  
+- Type 2 → Runs on host operating system  
+
+---
+
+## 9. Advantages and Limitations  
+
+**Q1. Advantages of IaaS**  
+Scalability, cost-effectiveness, flexibility, and remote access.  
+
+**Q2. Limitations of IaaS**  
+Security concerns, dependency on internet, and technical complexity.  
+
+**Q3. Advantages of Xen Server**  
+High performance, open-source, efficient virtualization.  
+
+---
+
+## 10. Final Conceptual Question  
+
+**Q. Explain how Xen Server supports IaaS.**  
+Xen Server acts as a hypervisor that virtualizes hardware resources and allows multiple virtual machines to run independently. This enables users to access infrastructure like servers and storage on demand, which is the core concept of IaaS.  
+
+---
