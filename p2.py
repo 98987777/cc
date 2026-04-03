@@ -13,7 +13,7 @@ Xen Server and Windows 7 Installation
 11.	Next
 12.	Next
 13.	Next
-14.	Next
+14.	Next specify disk capacity 60 and select option store and next
 15.	Specify Disk Capacity select option Split virtual disk into multiple files and Next
 16.	Browse to the Folder created and save and Next
 17.	Finish
@@ -28,7 +28,7 @@ Xen Server and Windows 7 Installation
 26.	Ok
 27.	Ok
 28.	Ok
-29.	No
+29.	supplement yes
 30.	Select Skip verification and then ok
 31.	Give password 123456
 32.	Nothing in network Then ok
