@@ -359,3 +359,151 @@ http://localhost:8080/prac10/MathService?wsdl
 #👉 Output
 <square>25</square>
 <cube>125</cube>
+
+
+
+
+
+
+
+
+
+
+
+
+For Viva - 
+
+# Practical Viva Questions  
+## Java SOAP Web Service (Maven + Tomcat + JAX-WS)  
+
+---
+
+## 1. Web Service Concepts  
+
+**Q1. What is a Web Service?**  
+A web service is a software system that allows communication between applications over a network.  
+
+**Q2. What is SOAP Web Service?**  
+SOAP (Simple Object Access Protocol) is a protocol used for exchanging structured information using XML.  
+
+**Q3. What is WSDL?**  
+WSDL (Web Services Description Language) is an XML document that describes the web service, its methods, and how to access it.  
+
+---
+
+## 2. Java Web Service Concepts  
+
+**Q1. What is JAX-WS?**  
+JAX-WS (Java API for XML Web Services) is a Java API used to create SOAP-based web services.  
+
+**Q2. What is @WebService annotation?**  
+It is used to define a class as a web service.  
+
+**Q3. What is @WebMethod annotation?**  
+It exposes a method so it can be accessed by clients.  
+
+---
+
+## 3. Maven Concepts  
+
+**Q1. What is Maven?**  
+Maven is a build automation and dependency management tool for Java projects.  
+
+**Q2. What is pom.xml?**  
+It is a configuration file that defines dependencies, plugins, and project settings.  
+
+**Q3. What is dependency in Maven?**  
+An external library required for the project.  
+
+---
+
+## 4. Tomcat Server  
+
+**Q1. What is Apache Tomcat?**  
+Apache Tomcat is a web server used to deploy and run Java web applications.  
+
+**Q2. What is deployment?**  
+The process of making a web application available on a server.  
+
+**Q3. What is WAR file?**  
+A Web Application Archive file used to deploy Java web applications.  
+
+---
+
+## 5. SOAP and XML Concepts  
+
+**Q1. Why does SOAP use XML?**  
+Because XML is platform-independent and structured.  
+
+**Q2. What is SOAP message?**  
+An XML-based message used to communicate between client and server.  
+
+**Q3. What are parts of SOAP message?**  
+Envelope, Header, Body  
+
+---
+
+## 6. Service Description and Access  
+
+**Q1. What is the role of WSDL in SOAP?**  
+It describes the service methods, parameters, and endpoint.  
+
+**Q2. How does a client know how to call a SOAP service?**  
+By reading the WSDL file.  
+
+---
+
+## 7. Client-Server Interaction  
+
+**Q1. What is client-server architecture?**  
+Client sends request → Server processes → Server sends response.  
+
+**Q2. What is SOAP UI?**  
+A tool used to test SOAP web services.  
+
+**Q3. How does SOAP UI interact with service?**  
+By sending XML requests based on WSDL.  
+
+---
+
+## 8. Application Logic Concepts  
+
+**Q1. What is the purpose of Hello Service?**  
+To return a greeting message.  
+
+**Q2. What is the purpose of Math Service?**  
+To perform operations like square and cube.  
+
+**Q3. How are methods executed in web service?**  
+Through remote calls via SOAP requests.  
+
+---
+
+## 9. Advantages and Limitations  
+
+**Q1. Advantages of SOAP Web Services**  
+Platform independent, secure, standardized  
+
+**Q2. Limitations of SOAP**  
+Heavy, slower due to XML, complex  
+
+---
+
+## 10. Comparison-Based Questions  
+
+**Q1. Difference between SOAP and REST**  
+SOAP → Protocol, XML, heavy  
+REST → Architecture, JSON, lightweight  
+
+**Q2. Difference between Web Service and Web Application**  
+Web Service → Provides data  
+Web App → Provides UI  
+
+---
+
+## 11. Final Conceptual Question  
+
+**Q. Explain how this practical demonstrates web services.**  
+In this practical, a Java-based SOAP web service is created using JAX-WS and deployed on Tomcat. The service methods are exposed via WSDL and tested using SOAP UI, demonstrating communication between client and server using XML-based messages.  
+
+---
