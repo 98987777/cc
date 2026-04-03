@@ -204,3 +204,193 @@ def largest():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+
+
+
+
+For Viva -
+# Practical Viva Questions  
+## Python Flask Web Service (Student API + GET/POST Operations)  
+
+---
+
+## 1. Web Service and API Concepts  
+
+**Q1. What is a Web Service?**  
+A web service is a system that enables communication between applications over a network using HTTP.  
+
+**Q2. What is an API?**  
+API (Application Programming Interface) allows different software systems to communicate and exchange data.  
+
+**Q3. What is a REST API?**  
+A REST API is a web service that follows REST principles and uses HTTP methods for communication.  
+
+---
+
+## 2. Flask Framework  
+
+**Q1. What is Flask?**  
+Flask is a lightweight Python web framework used to build web applications and REST APIs.  
+
+**Q2. Why is Flask suitable for web services?**  
+Because it is simple, flexible, and allows quick API development.  
+
+**Q3. What is the role of Flask in this practical?**  
+It acts as the server that handles requests and sends responses.  
+
+---
+
+## 3. HTTP Methods (Very Important)  
+
+**Q1. What are HTTP methods?**  
+They define actions performed on resources (GET, POST, etc.).  
+
+**Q2. Difference between GET and POST**  
+GET → Used to retrieve data  
+POST → Used to send and add data  
+
+**Q3. Which method is more secure?**  
+POST is more secure than GET as data is not visible in the URL.  
+
+---
+
+## 4. Routing and Endpoints  
+
+**Q1. What is routing?**  
+Mapping URLs to functions in Flask.  
+
+**Q2. What is an endpoint?**  
+A URL where a specific service can be accessed.  
+
+**Q3. What is dynamic routing?**  
+Using variables in URL (e.g., /students/<id>) to access specific data.  
+
+---
+
+## 5. Data Handling  
+
+**Q1. What is request.args?**  
+Used to get data from URL parameters (GET request).  
+
+**Q2. What is request.get_json()?**  
+Used to get data from request body (POST request).  
+
+**Q3. What is jsonify()?**  
+Converts Python data into JSON format for response.  
+
+---
+
+## 6. JSON and Data Storage  
+
+**Q1. What is JSON?**  
+A lightweight format for data exchange between client and server.  
+
+**Q2. Why is JSON used in APIs?**  
+It is easy to read, lightweight, and language-independent.  
+
+**Q3. What data structure is used in this practical?**  
+Dictionary is used to store student data.  
+
+---
+
+## 7. CRUD Operations  
+
+**Q1. What is CRUD?**  
+Create, Read, Update, Delete operations on data.  
+
+**Q2. Which operations are implemented here?**  
+Create (add student), Read (get students).  
+
+**Q3. Which HTTP methods correspond to CRUD?**  
+Create → POST  
+Read → GET  
+Update → PUT  
+Delete → DELETE  
+
+---
+
+## 8. Error Handling  
+
+**Q1. What is HTTP status code 404?**  
+Resource not found.  
+
+**Q2. What is HTTP status code 201?**  
+Resource created successfully.  
+
+**Q3. Why is error handling important?**  
+To provide proper responses when something goes wrong.  
+
+---
+
+## 9. Programming Logic Concepts  
+
+**Q1. How is multiplication table generated?**  
+Using a loop from 1 to 10.  
+
+**Q2. How is Fibonacci series generated?**  
+By adding previous two numbers repeatedly.  
+
+**Q3. How is prime number checked?**  
+By checking divisibility from 2 to n-1.  
+
+**Q4. How is largest number found?**  
+Using comparison or max() function.  
+
+---
+
+## 10. Client-Server Interaction  
+
+**Q1. What acts as client and server here?**  
+Browser/Postman → Client  
+Flask app → Server  
+
+**Q2. How does client communicate with server?**  
+Through HTTP requests using URLs.  
+
+**Q3. What is localhost (127.0.0.1)?**  
+It refers to the local machine where the server runs.  
+
+---
+
+## 11. Debugging and Execution  
+
+**Q1. What does debug=True do?**  
+Enables debugging and auto-reload during development.  
+
+**Q2. Why change port number?**  
+If default port (5000) is busy or not responding.  
+
+---
+
+## 12. Advantages and Limitations  
+
+**Q1. Advantages of Flask APIs**  
+Lightweight, fast, easy to develop, flexible  
+
+**Q2. Limitations**  
+Not ideal for very large applications without extensions  
+
+---
+
+## 13. Comparison-Based Questions  
+
+**Q1. Difference between Flask API and ASP.NET Web Service**  
+Flask → Python-based, REST  
+ASP.NET → .NET-based, supports SOAP and REST  
+
+**Q2. Difference between REST and SOAP**  
+REST → Lightweight, uses JSON  
+SOAP → Heavy, uses XML  
+
+---
+
+## 14. Final Conceptual Question  
+
+**Q. Explain how this practical demonstrates a web service.**  
+In this practical, Flask is used to build REST APIs for managing student data and performing operations like Fibonacci, prime check, and addition. The client sends HTTP requests, and the server processes them and returns JSON responses, demonstrating web service communication and CRUD operations.  
+
+---
