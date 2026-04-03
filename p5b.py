@@ -149,3 +149,139 @@ public string CheckPrime(int num)
 
     return "Prime";
 }
+
+
+
+
+
+
+for viva- 
+
+# Practical Viva Questions  
+## ASP.NET Web Services – Basic Programs (Fibonacci, Odd/Even, Table, Prime)  
+
+---
+
+## 1. Web Service Concepts  
+
+**Q1. What is a Web Service?**  
+A web service is a software component that allows applications to communicate over a network.  
+
+**Q2. What is ASMX Web Service?**  
+ASMX is a framework in ASP.NET used to create SOAP-based web services.  
+
+**Q3. What is a WebMethod?**  
+A method marked with [WebMethod] that can be accessed by clients over the web.  
+
+---
+
+## 2. ASP.NET and Architecture  
+
+**Q1. What is ASP.NET?**  
+ASP.NET is a web development framework by :contentReference[oaicite:0]{index=0} used to build web applications and services.  
+
+**Q2. What is client-server architecture in this practical?**  
+The Web Form acts as a client and the Web Service acts as a server.  
+
+**Q3. How does the Web Form communicate with the Web Service?**  
+By calling methods of the web service through object creation.  
+
+---
+
+## 3. Programming Logic Concepts  
+
+**Q1. What is an algorithm?**  
+A step-by-step procedure to solve a problem.  
+
+**Q2. Why are loops used in this practical?**  
+To perform repeated operations like generating series or tables.  
+
+**Q3. What is conditional statement?**  
+A decision-making statement like if-else used to control program flow.  
+
+---
+
+## 4. Fibonacci Series  
+
+**Q1. What is Fibonacci series?**  
+A sequence where each number is the sum of the previous two numbers.  
+
+**Q2. What is the starting sequence of Fibonacci?**  
+0, 1, 1, 2, 3, 5...  
+
+**Q3. Where is Fibonacci used?**  
+Mathematics, algorithms, data structures, and nature patterns.  
+
+---
+
+## 5. Odd and Even Concept  
+
+**Q1. How do you check if a number is even?**  
+If number % 2 == 0, it is even.  
+
+**Q2. How do you check if a number is odd?**  
+If number % 2 != 0, it is odd.  
+
+**Q3. What is modulus operator (%)?**  
+It returns the remainder of a division.  
+
+---
+
+## 6. Multiplication Table  
+
+**Q1. What is a multiplication table?**  
+A list showing multiples of a number.  
+
+**Q2. Why use loops for table generation?**  
+To repeat multiplication from 1 to 10 automatically.  
+
+**Q3. What is string concatenation?**  
+Combining multiple strings into one output.  
+
+---
+
+## 7. Prime Number Concept  
+
+**Q1. What is a prime number?**  
+A number divisible only by 1 and itself.  
+
+**Q2. Why is 1 not a prime number?**  
+Because it has only one factor.  
+
+**Q3. How do you check a prime number?**  
+By checking divisibility from 2 to n-1.  
+
+---
+
+## 8. Data Handling and Validation  
+
+**Q1. Why use int.Parse()?**  
+To convert string input into integer.  
+
+**Q2. What happens if invalid input is entered?**  
+It causes a runtime error.  
+
+**Q3. How can input validation be improved?**  
+Using try-catch or validation controls.  
+
+---
+
+## 9. Advantages and Applications  
+
+**Q1. Advantages of using Web Services**  
+Reusability, platform independence, modular design  
+
+**Q2. Where can such services be used?**  
+Online calculators, educational apps, APIs  
+
+**Q3. Why separate logic into Web Service?**  
+To reuse logic across multiple clients  
+
+---
+
+## 10. Final Conceptual Question  
+
+**Q. Explain how this practical demonstrates web services.**  
+In this practical, different logic operations like Fibonacci, prime checking, and table generation are implemented in a web service. The web form sends input to the service, which processes it and returns the result, demonstrating client-server communication and reusable services.  
+
+---
