@@ -91,3 +91,136 @@ namespace WebServices
     }
 }
 ==============================================================================================
+
+
+
+
+
+For Viva-
+# Practical Viva Questions  
+## Temperature Conversion Web Service using ASP.NET (.NET Framework)  
+
+---
+
+## 1. Web Service Concepts  
+
+**Q1. What is a Web Service?**  
+A web service is a software component that allows communication between applications over a network using standard protocols.  
+
+**Q2. What is an ASMX Web Service?**  
+ASMX is a web service framework in ASP.NET used to create SOAP-based web services.  
+
+**Q3. What is SOAP?**  
+SOAP (Simple Object Access Protocol) is a protocol used for exchanging structured information in web services.  
+
+**Q4. What is the purpose of a WebMethod?**  
+It exposes a method so that it can be accessed by clients over the web.  
+
+---
+
+## 2. ASP.NET Concepts  
+
+**Q1. What is ASP.NET?**  
+ASP.NET is a web development framework by :contentReference[oaicite:0]{index=0} used to build dynamic web applications and services.  
+
+**Q2. What is a Web Form in ASP.NET?**  
+A Web Form is a page used to create user interfaces with controls like buttons, labels, and textboxes.  
+
+**Q3. What is code-behind in ASP.NET?**  
+It is the backend C# file where logic and event handling are written.  
+
+---
+
+## 3. Client-Server Interaction  
+
+**Q1. How does the Web Form interact with the Web Service?**  
+The Web Form calls methods of the web service to process data and display results.  
+
+**Q2. What is client-server architecture?**  
+A model where the client requests services and the server processes and responds.  
+
+**Q3. What happens when a button is clicked in Web Form?**  
+An event is triggered, and the corresponding method is executed in the code-behind file.  
+
+---
+
+## 4. Data Handling Concepts  
+
+**Q1. Why is Double.Parse used?**  
+To convert input from string (textbox) into numeric (double) format.  
+
+**Q2. What will happen if invalid input is entered?**  
+It will cause a runtime error (format exception).  
+
+**Q3. How can input validation be improved?**  
+By using try-catch blocks or validation controls.  
+
+---
+
+## 5. Temperature Conversion Logic  
+
+**Q1. Formula to convert Celsius to Fahrenheit**  
+F = (C × 9/5) + 32  
+
+**Q2. Formula to convert Fahrenheit to Celsius**  
+C = (F − 32) × 5/9  
+
+**Q3. Why are these formulas used?**  
+They convert temperature values between two standard measurement scales.  
+
+---
+
+## 6. Application Logic  
+
+**Q1. What is the role of WebService1 class?**  
+It contains methods for temperature conversion.  
+
+**Q2. Why create an object of WebService1 in WebForm?**  
+To access and call its methods.  
+
+**Q3. What is the flow of execution in this application?**  
+User input → Button click → Web service method call → Result displayed  
+
+---
+
+## 7. Advantages and Limitations  
+
+**Q1. Advantages of using Web Services**  
+Platform independent, reusable, supports distributed systems  
+
+**Q2. Limitations of ASMX Web Services**  
+Uses SOAP (heavy), less flexible compared to modern APIs  
+
+**Q3. What is a modern alternative to ASMX?**  
+RESTful Web Services or Web API  
+
+---
+
+## 8. Comparison-Based Questions  
+
+**Q1. Difference between Web Service and Web Application**  
+Web Service → Provides data/services  
+Web Application → Provides user interface  
+
+**Q2. Difference between SOAP and REST**  
+SOAP → Protocol, XML-based, heavier  
+REST → Architectural style, lightweight, uses JSON  
+
+---
+
+## 9. Error Handling and Improvements  
+
+**Q1. How can you handle errors in this application?**  
+Using try-catch blocks and validation controls  
+
+**Q2. How can this application be improved?**  
+Add input validation, use Web API, improve UI  
+
+---
+
+## 10. Final Conceptual Question  
+
+**Q. Explain how this practical demonstrates a web service.**  
+In this practical, a web service is created to perform temperature conversion. The web form acts as a client that sends input to the service, which processes the data and returns the result, demonstrating client-server communication using web services.  
+
+---
