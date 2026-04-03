@@ -138,3 +138,155 @@ https://localhost:xxxx/Employee/GetEmployees
 
 
 
+
+
+
+
+
+
+
+For Viva - 
+# Practical Viva Questions  
+## Employee Details Web Service using Python (FastAPI/Flask) and .NET  
+
+---
+
+## 1. Web Service and API Concepts  
+
+**Q1. What is a Web API?**  
+A Web API is a service that allows communication between applications using HTTP requests and responses.  
+
+**Q2. What is REST API?**  
+REST API is an architectural style that uses HTTP methods to perform operations on resources.  
+
+**Q3. What is a resource in REST?**  
+A resource is an entity such as an employee that can be accessed via a URL.  
+
+---
+
+## 2. Python API Frameworks  
+
+**Q1. What is FastAPI?**  
+FastAPI is a high-performance Python framework used to build REST APIs quickly.  
+
+**Q2. What is Flask?**  
+Flask is a lightweight Python web framework used to create web applications and APIs.  
+
+**Q3. Difference between FastAPI and Flask**  
+FastAPI → Faster, async support, automatic validation  
+Flask → Simple, lightweight, more manual configuration  
+
+---
+
+## 3. Routing and Endpoints  
+
+**Q1. What is routing?**  
+Mapping URLs to functions that handle requests.  
+
+**Q2. What is dynamic routing?**  
+Using variables in URL (e.g., /employees/{id}).  
+
+**Q3. What is an endpoint?**  
+A specific URL where the API can be accessed.  
+
+---
+
+## 4. HTTP Methods and CRUD  
+
+**Q1. What are HTTP methods?**  
+They define actions performed on resources (GET, POST, etc.).  
+
+**Q2. Which methods are used in this practical?**  
+GET → Retrieve employee data  
+POST → Add employee data  
+
+**Q3. What is CRUD?**  
+Create, Read, Update, Delete operations on data.  
+
+---
+
+## 5. JSON and Data Handling  
+
+**Q1. What is JSON?**  
+A lightweight data format used for data exchange between client and server.  
+
+**Q2. Why is JSON used in APIs?**  
+It is easy to read, lightweight, and language-independent.  
+
+**Q3. What data structure is used to store employees?**  
+Dictionary (key-value pairs).  
+
+---
+
+## 6. Client-Server Communication  
+
+**Q1. What is client-server architecture?**  
+Client sends request → Server processes → Server sends response.  
+
+**Q2. What acts as client and server here?**  
+.NET application → Client  
+Python API → Server  
+
+**Q3. How does .NET communicate with Python API?**  
+Using HTTP requests via HttpClient.  
+
+---
+
+## 7. .NET HttpClient  
+
+**Q1. What is HttpClient?**  
+A class in .NET used to send HTTP requests and receive responses.  
+
+**Q2. What does GetAsync() or GetStringAsync() do?**  
+It sends a request to the API and retrieves response data.  
+
+**Q3. Why is async/await used?**  
+To perform non-blocking operations and improve performance.  
+
+---
+
+## 8. Error Handling  
+
+**Q1. What happens if employee ID is not found?**  
+API returns an error message.  
+
+**Q2. What is HTTP status code 404?**  
+Resource not found.  
+
+**Q3. What is HTTP status code 201?**  
+Resource created successfully.  
+
+---
+
+## 9. Advantages and Applications  
+
+**Q1. Advantages of Web APIs**  
+Platform independent, reusable, scalable  
+
+**Q2. Why use Python with .NET together?**  
+To enable interoperability between different technologies  
+
+**Q3. Where is this used?**  
+Microservices, enterprise applications, system integration  
+
+---
+
+## 10. Comparison-Based Questions  
+
+**Q1. Difference between Web API and Web Application**  
+Web API → Returns data (JSON)  
+Web App → Returns UI (HTML)  
+
+**Q2. Difference between REST and SOAP**  
+REST → Lightweight, JSON  
+SOAP → Heavy, XML  
+
+---
+
+## 11. Final Conceptual Question  
+
+**Q. Explain how this practical demonstrates web services.**  
+In this practical, a Python-based API provides employee data as JSON. A .NET application sends HTTP requests to this API and receives the response, demonstrating client-server communication and integration between different technologies.  
+
+---
+
