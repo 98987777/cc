@@ -138,6 +138,96 @@ if __name__ == "__main__":
 
 
 
+# Area of Circle Web Service using Flask
+
+from flask import Flask, jsonify, request
+import math
+
+# Create Flask app
+app = Flask(__name__)
+
+# Home Route
+@app.route("/")
+def home():
+    return "Area of Circle Web Service is running!"
+
+# Area of Circle API
+@app.route("/circle", methods=["GET"])
+def circle_area():
+    try:
+        # Get radius from URL
+        radius = float(request.args.get("radius"))
+
+        # Calculate area
+        area = math.pi * radius * radius
+
+        # Return result in JSON format
+        return jsonify({
+            "radius": radius,
+            "area": area
+        })
+
+    except:
+        return jsonify({
+            "error": "Please provide a valid radius value"
+        })
+
+# Run the server
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+# Addition of Squares Web Service using Flask
+
+from flask import Flask, jsonify, request
+
+app = Flask(__name__)
+
+# Home Route
+@app.route("/")
+def home():
+    return "Addition of Squares Web Service is running!"
+
+# API to calculate sum of squares
+@app.route("/addsquare", methods=["GET"])
+def add_square():
+    try:
+        # Get numbers from URL
+        a = float(request.args.get("a"))
+        b = float(request.args.get("b"))
+
+        # Calculate sum of squares
+        result = (a * a) + (b * b)
+
+        # Return result
+        return jsonify({
+            "a": a,
+            "b": b,
+            "sum_of_squares": result
+        })
+
+    except:
+        return jsonify({
+            "error": "Please provide valid numbers"
+        })
+
+# Run the server
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+
+
+
+
+
+
 
 For Viva- 
 # Practical Viva Questions  
